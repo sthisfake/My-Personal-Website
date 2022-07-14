@@ -1,0 +1,65 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    /*    text-indent: 9.25em;
+        padding: 8px;
+        margin: 8px;
+        text-align: center;*/
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav pre {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav #pre1:hover {
+    background-color: #E7456E;
+    color: black;
+    cursor:pointer;
+}
+.topnav #pre2:hover {
+    background-color: #74D643;
+    color: black;
+    cursor:pointer;
+}
+.topnav #pre3:hover {
+    background-color: #04D4CC;
+    color: black;
+    cursor:pointer;
+
+}
+.topnav #pre4:hover {
+    background-color: #c86cfd;
+    color: black;
+    cursor:pointer;
+
+}
+
+.topnav pre.split {
+    float: right;
+    /* background-color: #04AA6D;*/
+    color: white;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 75px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
