@@ -19,6 +19,12 @@
     font-size: 17px;
 }
 
+.topnav a{
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
 /* Change the color of links on hover */
 .topnav #pre1:hover {
     background-color: #E7456E;
@@ -56,6 +62,24 @@
     color: rgb(255, 255, 255);
     font-size: 75px;
 }
+
+.post a{
+    position: relative;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+
+}
+
+.post p{
+    max-width:600px;
+    word-wrap:break-word;
+
+}
+
+
+
+
 
 .centered {
     position: absolute;

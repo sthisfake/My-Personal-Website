@@ -7,16 +7,36 @@
     </title>
 </head>
 <body>
+<section>
 <div class="topnav">
-    <pre id="pre1" class="active tab" href="#home" >              Pouya's way            </pre>
-    <pre id="pre2" href="#news">               Posts                </pre>
-    <pre id="pre3" href="#contact">             About me                </pre>
-    <pre id="pre4" href="#about" >              Contact               </pre>
+    <pre id="pre1" class="active tab" href="#home" >             <a>Pouya's way</a>             </pre>
+    <pre id="pre2" >               <a href="#news">Posts</a>                </pre>
+    <pre id="pre3" >             <a href="#contact">About me</a>                </pre>
+    <pre id="pre4"  >              <a href="#about">Contact</a>               </pre>
 </div>
 <div class="container">
     <img src="../css/song.jpeg" alt="song to song" width="1500" height="640">
     <div class="centered">Wellcome to my site</div>
 </div>
+</section>
+
+<section id="news">
+    <div class="post">
+        <a> {{.headline}}  </a>
+        <img src="../css/dePalma.png" style='float: right;' width="800" height="800" />
+        <p>
+            {{.text}}
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+
+</section>
+
+<section id="about">
+
+</section>
 
 
 
