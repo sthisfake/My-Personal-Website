@@ -1,15 +1,14 @@
 package main
 
 import (
-	"fmt"
 	"html/template"
 	"net/http"
 )
 
 type post struct {
-	headline string
-	text string
-	image string
+	Headline string
+	Text string
+	Image string
 }
 
 func main() {
@@ -53,7 +52,6 @@ func main() {
 		if err := templates.ExecuteTemplate(w, "home.html",postt); err!=nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 		}
-		fmt.Println("hry")
 
 	})
 
