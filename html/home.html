@@ -21,12 +21,13 @@
 </section>
 
 <section id="news">
-    <div class="post">
-        <a> {{.Headline}}  </a>
-        <img src= {{.Image}} style='float: right;' width="800" height="800" />
-        <p>
-            {{.Text}}
-        </p>
+    <div class="examplePost">
+        <a> new post </a>
+        <img src= {{.Image}} style='float: right; position:absolute; top:110%; left:55%; ' width="600" height="500" />
+        <p id="headline"> {{.Headline}} </p>
+        <p>{{.Text}}</p>
+        <button class="button-28" role="button">Read More</button>
+        <p></p>
     </div>
 </section>
 
