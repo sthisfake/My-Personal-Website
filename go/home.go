@@ -32,11 +32,7 @@ func main() {
 			"main lens to make half the lens nearsighted. The lens can focus on a plane in the background and the diopter on a" +
 			"foreground element. In the 1970′s and 1980′s, Brian De Palma championed the use of this tool to enhance the visual and emotional" +
 			"experience of his films. The Split Diopter allows for Deep Focus cinematography but requires much less light. It also delivers a distinctive" +
-			"look that blends sharp and out-of-focus imagery all in one frame. Subjects in both foreground and background can be kept in focus." +
-			"In the video below are all 15 S plit Diopter shots from Brian De Palma’s film Blow Out, courtesy of Vashi Nedomansky." +
-			"A stylish American thriller knee-deep in paranoia, Brian De Palma’s Blow Out is a neatly packed, thrill-ridden film executed on" +
-			"a level far beyond average filmmaking. The story of a sound man working on a sleazy exploitation horror, who accidentally catches a recording of what his " +
-			"gut is telling him is a covered-up murder, offers the star of Pulp Fiction and Grease an",
+			"look that blends sharp and out-of-focus imagery all in one frame. Subjects in both foreground and background can be kept in focus." ,
 		"../css/dePalma.png"}
 
 	templates := template.Must(template.ParseFiles("../html/home.html"))
