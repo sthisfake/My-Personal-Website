@@ -30,9 +30,7 @@ func main() {
 			"Vilmos Zsigmond and Paul Hirsch. We were filming part of a documentary about the extraordinary talent and " +
 			"career of Vilmos Zsigmond.” A Split Focus Diopter is half convex glass that attaches in front of the camera’s" +
 			"main lens to make half the lens nearsighted. The lens can focus on a plane in the background and the diopter on a" +
-			"foreground element. In the 1970′s and 1980′s, Brian De Palma championed the use of this tool to enhance the visual and emotional" +
-			"experience of his films. The Split Diopter allows for Deep Focus cinematography but requires much less light. It also delivers a distinctive" +
-			"look that blends sharp and out-of-focus imagery all in one frame. Subjects in both foreground and background can be kept in focus." ,
+			"foreground element.",
 		"../css/dePalma.png"}
 
 	templates := template.Must(template.ParseFiles("../html/home.html"))
