@@ -1,11 +1,10 @@
-/* Add a black background color to the top navigation */
+/************** first part********/
 .topnav {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 
 
-/* Style the links inside the navigation bar */
 .topnav pre {
     float: left;
     color: #000000;
@@ -21,7 +20,6 @@
     text-decoration: none;
 }
 
-/* Change the color of links on hover */
 .topnav #pre1:hover {
     background-color: #E7456E;
     color: black;
@@ -47,7 +45,6 @@
 
 .topnav pre.split {
     float: right;
-    /* background-color: #04AA6D;*/
     color: white;
 }
 
@@ -67,6 +64,9 @@
     font-size: 75px;
 }
 
+
+/************** post part ********/
+
 section #news{
     background-color: rgb(116, 214, 67);
 }
@@ -75,7 +75,6 @@ section #news{
     position: absolute;
     left: 65%;
     top: 190%;
-  /*  top: 135%;*/
     text-align: left;
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -96,7 +95,6 @@ section #news{
 }
 
 .examplePost p{
-    /*background-color: rgb(255, 255, 255);*/
     max-width:750px;
     position: relative;
     left: 1%;
@@ -226,4 +224,21 @@ section #news{
 .allPost:active {
     box-shadow: none;
     transform: translateY(0);
+}
+
+
+/************** about me part ********/
+
+.aboutMe{
+    background-color: #04D4CC;
+    overflow: hidden;
+}
+
+.aboutMe a{
+    position: relative;
+    left: 3%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
