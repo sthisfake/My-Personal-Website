@@ -88,15 +88,19 @@ code {
 }
 
 .aboutMeSection {
-  height: 650px;
+  height: 750px;
+  width: 100%;
+}
+
+.contactPage {
+  height: 750px;
   width: 100%;
 }
 
 .blockquote {
   margin-left: 100px;
-  border-radius: 200px;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   background-color: #dee2e6;
 }
 
@@ -109,14 +113,184 @@ code {
 }
 
 .skils > h1 {
-  color: #dee2e6;
+  color: #2a9d8f;
   font-size: 35px;
   margin-right: 60px;
+  margin-bottom: 50px;
 }
 
 .skils > h2 {
-  color: #dee2e6;
+  color: #2a9d8f;
   font-size: 35px;
   margin-right: 235px;
-  margin-top: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.python {
+  margin-left: 20px;
+}
+
+.clang {
+  margin-right: 20px;
+}
+
+.js {
+  margin-left: 40px;
+}
+
+.pythonText > h3 {
+  color: #dee2e6;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.javaText > h3 {
+  color: #dee2e6;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.goText > h3 {
+  color: #dee2e6;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.cText > h3 {
+  color: #dee2e6;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.jsText > h3 {
+  color: #dee2e6;
+  margin-left: 35px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.flutterText > h3 {
+  color: #dee2e6;
+  margin-top: 10px;
+  margin-left: 13px;
+  font-size: 20px;
+}
+
+.flask {
+  margin-left: 20px;
+}
+
+.flaskText > h3 {
+  color: #dee2e6;
+  margin-top: 10px;
+  margin-left: 18px;
+  font-size: 20px;
+}
+
+.ginText > h3 {
+  color: #dee2e6;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.electron {
+  margin-right: 20px;
+}
+
+.electronText > h3 {
+  color: #dee2e6;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.reactText > h3 {
+  color: #dee2e6;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.quote {
+  margin-left: 80px;
+  background: #dee2e6;
+  padding: 1em;
+  height: 500px;
+  width: 500px;
+  border-radius: 3em;
+}
+
+.paragrapgh {
+  font-size: 30px;
+}
+
+.contactMe > h1 {
+  font-size: 50px;
+  color: #2a9d8f;
+  text-align: center;
+}
+
+.stuff {
+  margin-top: 100px;
+}
+
+.mail {
+  margin-right: 10px;
+}
+
+.mailText > h1 {
+  font-size: 30px;
+  margin-right: 80px;
+  color: #dee2e6;
+}
+
+.mailText {
+  margin-bottom: 20px;
+}
+
+.phone {
+  margin-right: 20px;
+}
+
+.phoneText {
+  margin-bottom: 30px;
+}
+
+.phoneText > h1 {
+  font-size: 30px;
+  margin-right: 50px;
+  color: #dee2e6;
+}
+
+.git {
+  margin-right: 20px;
+}
+
+.gitText {
+  margin-bottom: 30px;
+}
+
+.gitText > h1 {
+  margin-right: 40px;
+  font-size: 30px;
+  color: #dee2e6;
+}
+
+.telegram {
+  margin-right: 20px;
+}
+
+.telegramText {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.telegramText > h1 {
+  margin-right: 40px;
+  font-size: 30px;
+  color: #dee2e6;
 }

@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import FirstPage from "./firstpage";
 import SecondPage from "./secondPage";
 import { useRef } from "react";
+import ThirdPage from "./thirdPage";
 
 function MainPage(props) {
   const home = useRef(null);
@@ -17,7 +18,6 @@ function MainPage(props) {
   };
 
   const whichIsclicked = (section) => {
-    console.log(section);
     if (section === "home") {
       scrollToSection(home);
     } else if (section === "about") {
@@ -32,6 +32,7 @@ function MainPage(props) {
       <Navbar refrence={home} onChange={whichIsclicked} />
       <FirstPage onChange={whichIsclicked} />
       <SecondPage refrence={about} onChange={whichIsclicked} />
+      <ThirdPage refrence={contact} />
     </React.Fragment>
   );
 }

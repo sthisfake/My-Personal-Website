@@ -25,13 +25,15 @@ class FirstPage extends Component {
               </div>
             </div>
           </div>
+          <br />
+          <br />
           <div className="buttonDown">
             <button
               type="button"
-              class="btn btn-primary btn-circle btn-xl"
+              className="btn btn-primary btn-circle btn-xl"
               onClick={() => this.props.onChange("about")}
             >
-              <i class="fa fa-arrow-down fa-3x" aria-hidden="true"></i>
+              <i className="fa fa-arrow-down fa-3x" aria-hidden="true"></i>
             </button>
           </div>
         </div>
