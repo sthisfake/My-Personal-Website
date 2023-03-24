@@ -60,7 +60,7 @@ class SecondPage extends Component {
                     <div className="goText">
                       <img
                         className="go"
-                        style={{ width: 80, height: 80 }}
+                        style={{ width: 90, height: 90 }}
                         src={go}
                       />
                       <h3>Go</h3>

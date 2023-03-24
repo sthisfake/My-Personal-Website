@@ -65,7 +65,14 @@ class ThirdPage extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-sm-10">rgergrg</div>
+            <div className="col-sm-2">
+              <div className="contactText">
+                <h1 className="myEmail">pouya.teimoury@gmail.com</h1>
+                <h1 className="myPhone">+989306607566</h1>
+                <h1 className="myGit">@sthisfake</h1>
+                <h1 className="myTelegram">@BeKind_Rewind</h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>

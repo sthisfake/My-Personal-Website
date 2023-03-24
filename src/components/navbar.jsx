@@ -12,7 +12,7 @@ class Navbar extends Component {
                 <div className="navItemColor">
                   <ul className="navbar-nav">
                     <li
-                      className="nav-item"
+                      className="nav-item item-custom"
                       onClick={() => this.props.onChange("home")}
                     >
                       <a className="nav-link">Home</a>

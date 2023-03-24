@@ -18,9 +18,13 @@ code {
 
 .navItemColor > ul > li > a {
   color: #ced4da;
-  font-size: 20px;
+  font-size: 25px;
   margin-right: 20px;
   cursor: pointer;
+}
+
+.navItemColor > ul > li > a:hover {
+  color: #2a9d8f;
 }
 
 .lineUnderNav {
@@ -31,20 +35,20 @@ code {
   margin-top: 50px;
 }
 
-.myName > h1 {
-  color: #dee2e6;
+.myName > .slide-left > h1 {
+  color: #2a9d8f;
   font-size: 70px;
   margin-top: 100px;
   margin-left: 60px;
 }
 
-.myName > h2 {
+.myName > .slide-left2 > h2 {
   color: #dee2e6;
   font-size: 35px;
   margin-top: 50px;
   margin-left: 60px;
 }
-.myName > h3 {
+.myName > .slide-left2 > h3 {
   color: #dee2e6;
   font-size: 35px;
   margin-left: 60px;
@@ -64,12 +68,21 @@ code {
   border: none;
 }
 
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited {
+.btn-primary {
   background-color: #ced4da !important;
   border-color: #ced4da;
+}
+
+.btn-primary:hover {
+  background-color: #2a9d8f !important;
+  -webkit-transition: transform 0.75s ease-in-out;
+  transform: scale(1.2) perspective(1px);
+}
+
+.btn-primary:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
 }
 
 .buttonDown {
@@ -80,7 +93,7 @@ code {
 
 .fa-arrow-down {
   color: black;
-  background-color: #ced4da;
+  background-color: transparent;
 }
 
 .homeSection {
@@ -153,9 +166,22 @@ code {
   font-size: 20px;
 }
 
+.goText:hover,
+.javaText:hover,
+.pythonText:hover,
+.cText:hover,
+.jsText:hover,
+.flutterText:hover,
+.flaskText:hover,
+.ginText:hover,
+.electronText:hover,
+.reactText:hover {
+  -webkit-transition: transform 0.75s ease-in-out;
+  transform: scale(1.2) perspective(1px);
+}
+
 .goText > h3 {
   color: #dee2e6;
-  margin-top: 10px;
   font-size: 20px;
 }
 
@@ -293,4 +319,72 @@ code {
   margin-right: 40px;
   font-size: 30px;
   color: #dee2e6;
+}
+
+.contactText {
+  margin-top: 103px;
+  color: #adb5bd;
+}
+
+.myEmail {
+}
+
+.myPhone {
+  margin-top: 50px;
+}
+
+.myGit {
+  margin-top: 40px;
+}
+
+.myTelegram {
+  margin-top: 40px;
+}
+
+.imageAnim {
+  animation: slideleft 2s normal forwards;
+  animation-name: image-slide;
+}
+
+.slide-left {
+  animation: slideleft 1s linear forwards;
+  animation-name: slide-left;
+}
+
+.slide-left2 {
+  animation: slideleft 3s normal forwards;
+  animation-name: slide-left2;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translate(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left2 {
+  0% {
+    transform: translate(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes image-slide {
+  0% {
+    transform: translate(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
