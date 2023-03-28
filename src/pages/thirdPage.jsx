@@ -68,9 +68,14 @@ class ThirdPage extends Component {
             <div className="col-sm-2">
               <div className="contactText">
                 <h1 className="myEmail">pouya.teimoury@gmail.com</h1>
+
                 <h1 className="myPhone">+989306607566</h1>
-                <h1 className="myGit">@sthisfake</h1>
-                <h1 className="myTelegram">@BeKind_Rewind</h1>
+                <a href="https://github.com/sthisfake" className="link">
+                  <h1 className="myGit">@sthisfake</h1>
+                </a>
+                <a href="https://t.me/Bekind_Rewind" className="link">
+                  <h1 className="myTelegram"> @BeKind_Rewind</h1>
+                </a>
               </div>
             </div>
           </div>

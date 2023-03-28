@@ -22,11 +22,7 @@ class FirstPage extends Component {
               </div>
               <div className="col-sm-6">
                 <div className="imageAnim">
-                  <img
-                    className="imagePouya"
-                    style={{ width: 480, height: 480 }}
-                    src={pouya}
-                  />
+                  <img className="imagePouya" src={pouya} />
                 </div>
               </div>
             </div>

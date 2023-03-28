@@ -56,6 +56,8 @@ code {
 
 .imagePouya {
   margin-left: 80px;
+  width: 480px;
+  height: 480px;
 }
 
 .btn-circle.btn-xl {
@@ -386,5 +388,63 @@ code {
   100% {
     transform: translate(0px);
     opacity: 1;
+  }
+}
+
+.link {
+  color: #adb5bd;
+}
+
+.link:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+.link:hover {
+  color: #2a9d8f;
+  background-color: transparent;
+}
+
+@media (max-width: 1399px) {
+  .navItemColor > ul > li > a {
+    font-size: 15px;
+  }
+
+  .myName > .slide-left > h1 {
+    font-size: 45px;
+  }
+
+  .myName > .slide-left2 > h2 {
+    font-size: 20px;
+  }
+  .myName > .slide-left2 > h3 {
+    font-size: 20px;
+  }
+
+  .imagePouya {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navItemColor > ul > li > a {
+    font-size: 10px;
+  }
+
+  .myName > .slide-left > h1 {
+    font-size: 30px;
+  }
+
+  .myName > .slide-left2 > h2 {
+    font-size: 12px;
+  }
+  .myName > .slide-left2 > h3 {
+    font-size: 12px;
+  }
+
+  .imagePouya {
+    width: 150px;
+    height: 150px;
   }
 }
