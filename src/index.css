@@ -142,16 +142,32 @@ code {
   margin-bottom: 30px;
 }
 
+.java {
+  width: 80px;
+  height: 80px;
+}
+
 .python {
   margin-left: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.go {
+  width: 90px;
+  height: 90px;
 }
 
 .clang {
   margin-right: 20px;
+  width: 80px;
+  height: 80px;
 }
 
 .js {
   margin-left: 40px;
+  width: 80px;
+  height: 80px;
 }
 
 .pythonText > h3 {
@@ -201,6 +217,11 @@ code {
   font-size: 20px;
 }
 
+.flutter {
+  width: 80px;
+  height: 80px;
+}
+
 .flutterText > h3 {
   color: #dee2e6;
   margin-top: 10px;
@@ -210,6 +231,24 @@ code {
 
 .flask {
   margin-left: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.gin {
+  width: 80px;
+  height: 80px;
+}
+
+.electron {
+  width: 80px;
+  height: 80px;
+}
+
+.react {
+  margin-left: 40px;
+  width: 80px;
+  height: 80px;
 }
 
 .flaskText > h3 {
@@ -240,7 +279,7 @@ code {
 .reactText > h3 {
   color: #dee2e6;
   margin-top: 10px;
-  margin-left: 15px;
+  margin-left: 55px;
   font-size: 20px;
 }
 .quote {
@@ -405,12 +444,15 @@ code {
   background-color: transparent;
 }
 
-@media (max-width: 1399px) {
+/* first change */
+
+@media (max-width: 1400px) {
   .navItemColor > ul > li > a {
     font-size: 15px;
   }
 
   .myName > .slide-left > h1 {
+    margin-top: 50px;
     font-size: 45px;
   }
 
@@ -424,6 +466,125 @@ code {
   .imagePouya {
     width: 280px;
     height: 280px;
+  }
+  .quote {
+    height: 300px;
+    width: 300px;
+  }
+  .paragrapgh {
+    font-size: 20px;
+  }
+
+  .skils > h1 {
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+
+  .skils > h2 {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+
+  .java {
+    width: 50px;
+    height: 50px;
+  }
+
+  .python {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .go {
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .clang {
+    margin-right: 0px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .js {
+    margin-right: 150px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .pythonText > h3 {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .javaText > h3 {
+    margin-right: 60px;
+    font-size: 15px;
+  }
+
+  .goText > h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .cText > h3 {
+    font-size: 15px;
+  }
+
+  .jsText > h3 {
+    font-size: 15px;
+  }
+
+  .flutter {
+    margin-right: 80px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .flask {
+    width: 50px;
+    height: 50px;
+  }
+
+  .gin {
+    width: 50px;
+    height: 50px;
+  }
+
+  .react {
+    width: 45px;
+    height: 45px;
+  }
+
+  .electron {
+    width: 50px;
+    height: 50px;
+  }
+
+  .flutterText > h3 {
+    margin-left: 0px;
+    font-size: 14px;
+  }
+
+  .flaskText > h3 {
+    font-size: 15px;
+  }
+
+  .ginText > h3 {
+    font-size: 15px;
+  }
+
+  .electronText > h3 {
+    font-size: 15px;
+  }
+
+  .reactText > h3 {
+    margin-left: 45px;
+    font-size: 15px;
   }
 }
 
@@ -446,5 +607,193 @@ code {
   .imagePouya {
     width: 150px;
     height: 150px;
+    margin-top: 50px;
+  }
+
+  .quote {
+    height: 200px;
+    width: 200px;
+  }
+  .paragrapgh {
+    font-size: 10px;
+  }
+
+  .skils > h1 {
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+
+  .skils > h2 {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  .java {
+    width: 25px;
+    height: 25px;
+  }
+
+  .python {
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .go {
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .clang {
+    margin-right: 0px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .js {
+    margin-left: 13px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .pythonText > h3 {
+    margin-left: 12px;
+    font-size: 7px;
+  }
+
+  .javaText > h3 {
+    margin-left: 7px;
+    font-size: 7px;
+  }
+
+  .goText > h3 {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 7px;
+  }
+
+  .cText > h3 {
+    margin-left: 10px;
+    font-size: 7px;
+  }
+
+  .jsText > h3 {
+    margin-left: 10px;
+    font-size: 7px;
+  }
+
+  .flutter {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .flask {
+    margin-right: 0px;
+    margin-left: 12px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .gin {
+    margin-right: 0px;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .electron {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .react {
+    margin-right: 0px;
+    margin-left: 15px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .flutterText > h3 {
+    margin-left: 2px;
+    font-size: 7px;
+  }
+
+  .flaskText > h3 {
+    font-size: 7px;
+  }
+
+  .ginText > h3 {
+    margin-left: 18px;
+    font-size: 7px;
+  }
+
+  .electronText > h3 {
+    font-size: 7px;
+  }
+
+  .reactText > h3 {
+    margin-left: 18px;
+    font-size: 7px;
+  }
+
+  .buttonDown {
+    display: none;
+  }
+
+  .homeSection {
+    height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* //phone */
+@media (max-width: 575px) {
+  .navItemColor > ul > li > a {
+    font-size: 10px;
+  }
+
+  .myName > .slide-left > h1 {
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .myName > .slide-left2 > h2 {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .myName > .slide-left2 > h3 {
+    margin-top: 5px;
+    margin-left: 0px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .imagePouya {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .buttonDown {
+    display: none;
   }
 }

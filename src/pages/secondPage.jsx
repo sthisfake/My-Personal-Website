@@ -38,104 +38,64 @@ class SecondPage extends Component {
                 <div className="row">
                   <div className="col-sm-2">
                     <div className="javaText">
-                      <img
-                        className="java"
-                        style={{ width: 80, height: 80 }}
-                        src={java}
-                      />
+                      <img className="java" src={java} />
                       <h3>Java</h3>
                     </div>
                   </div>
                   <div className="col-sm-3">
                     <div className="pythonText">
-                      <img
-                        className="python"
-                        style={{ width: 80, height: 80 }}
-                        src={python}
-                      />
+                      <img className="python" src={python} />
                       <h3>Python</h3>
                     </div>
                   </div>
                   <div className="col-sm-3">
                     <div className="goText">
-                      <img
-                        className="go"
-                        style={{ width: 90, height: 90 }}
-                        src={go}
-                      />
+                      <img className="go" src={go} />
                       <h3>Go</h3>
                     </div>
                   </div>
                   <div className="col-sm-2">
                     <div className="cText">
-                      <img
-                        className="clang"
-                        style={{ width: 80, height: 80 }}
-                        src={c}
-                      />
+                      <img className="clang" src={c} />
                       <h3>C</h3>
                     </div>
                   </div>
                   <div className="col-sm-2">
                     <div className="jsText">
-                      <img
-                        className="js"
-                        style={{ width: 80, height: 80 }}
-                        src={js}
-                      />
+                      <img className="js" src={js} />
                       <h3>Javascript</h3>
                     </div>
                   </div>
                 </div>
-                <h2>Frameworks :</h2>
+                <h2>Frameworks:</h2>
                 <div className="row">
                   <div className="col-sm-2">
                     <div className="flutterText">
-                      <img
-                        className="flutter"
-                        style={{ width: 80, height: 80 }}
-                        src={flutter}
-                      />
+                      <img className="flutter" src={flutter} />
                       <h3>Flutter</h3>
                     </div>
                   </div>
                   <div className="col-sm-3">
                     <div className="flaskText">
-                      <img
-                        className="flask"
-                        style={{ width: 80, height: 80 }}
-                        src={flask}
-                      />
+                      <img className="flask" src={flask} />
                       <h3>Flask</h3>
                     </div>
                   </div>
                   <div className="col-sm-3">
                     <div className="ginText">
-                      <img
-                        className="gin"
-                        style={{ width: 80, height: 80 }}
-                        src={gin}
-                      />
+                      <img className="gin" src={gin} />
                       <h3>Gin</h3>
                     </div>
                   </div>
-                  <div className="col-sm-3">
+                  <div className="col-sm-2">
                     <div className="electronText">
-                      <img
-                        className="electron"
-                        style={{ width: 80, height: 80 }}
-                        src={electron}
-                      />
+                      <img className="electron" src={electron} />
                       <h3>Electron</h3>
                     </div>
                   </div>
-                  <div className="col-sm-1">
+                  <div className="col-sm-2">
                     <div className="reactText">
-                      <img
-                        className="react"
-                        style={{ width: 80, height: 80 }}
-                        src={react}
-                      />
+                      <img className="react" src={react} />
                       <h3>React</h3>
                     </div>
                   </div>
