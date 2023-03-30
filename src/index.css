@@ -367,9 +367,6 @@ code {
   color: #adb5bd;
 }
 
-.myEmail {
-}
-
 .myPhone {
   margin-top: 50px;
 }
@@ -444,9 +441,92 @@ code {
   background-color: transparent;
 }
 
+.mail {
+  width: 80px;
+  height: 80px;
+}
+
+.phone {
+  width: 60px;
+  height: 60px;
+}
+
+.git {
+  width: 60px;
+  height: 60px;
+}
+
+.telegram {
+  width: 60px;
+  height: 60px;
+}
 /* first change */
 
 @media (max-width: 1400px) {
+  .homeSection {
+    height: 500px;
+  }
+
+  .aboutMeSection {
+    height: 550px;
+  }
+
+  .contactMe > h1 {
+    font-size: 30px;
+  }
+
+  .mailText > h1 {
+    font-size: 20px;
+  }
+
+  .mail {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+
+  .phoneText > h1 {
+    font-size: 20px;
+    margin-right: 60px;
+    margin-left: 0px;
+  }
+
+  .phone {
+    margin-right: 25px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .gitText > h1 {
+    font-size: 20px;
+    margin-right: 50px;
+  }
+
+  .git {
+    width: 40px;
+    height: 40px;
+  }
+
+  .telegramText > h1 {
+    font-size: 20px;
+    margin-right: 60px;
+  }
+
+  .telegram {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contactShift {
+    margin-left: 40px;
+  }
+
+  .contactText > a > h1,
+  .contactText > h1 {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
   .navItemColor > ul > li > a {
     font-size: 15px;
   }
@@ -589,6 +669,83 @@ code {
 }
 
 @media (max-width: 992px) {
+  .aboutMeSection {
+    height: 300px;
+  }
+
+  .contactPage {
+    height: 500px;
+  }
+
+  .contactMe > h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .contactMe {
+    margin-bottom: 0px;
+  }
+
+  .mailText > h1 {
+    font-size: 10px;
+  }
+
+  .mail {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  .phoneText > h1 {
+    font-size: 10px;
+    margin-right: 70px;
+    margin-left: 0px;
+  }
+
+  .phone {
+    width: 30px;
+    height: 30px;
+  }
+
+  .gitText > h1 {
+    font-size: 10px;
+    margin-right: 65px;
+  }
+
+  .git {
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .telegramText > h1 {
+    font-size: 10px;
+    margin-right: 85px;
+  }
+
+  .telegram {
+    width: 27px;
+    height: 27px;
+  }
+
+  .contactText > a > h1,
+  .contactText > h1 {
+    font-size: 10px;
+    margin-top: 50px;
+  }
+
+  .contactText {
+    margin-top: 30px;
+  }
+
+  .stuff {
+    margin-top: 48px;
+  }
+
+  .contactShift {
+    margin-left: 40px;
+  }
+
   .navItemColor > ul > li > a {
     font-size: 10px;
   }
@@ -751,16 +908,97 @@ code {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .aboutMeSection {
+    height: 250px;
+  }
+
+  .contactPage {
+    height: 400px;
+  }
+
+  .contactMe > h1 {
+    font-size: 15px;
+  }
+
+  .mailText > h1 {
+    font-size: 7px;
+  }
+
+  .mail {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .phoneText > h1 {
+    font-size: 7px;
+    margin-right: 70px;
+    margin-left: 0px;
+  }
+
+  .phone {
+    width: 20px;
+    height: 20px;
+  }
+
+  .gitText > h1 {
+    font-size: 7px;
+    margin-right: 65px;
+  }
+
+  .git {
+    margin-right: 25px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .telegramText > h1 {
+    font-size: 7px;
+  }
+
+  .telegram {
+    margin-right: 25px;
+    width: 17px;
+    height: 17px;
+  }
+
+  .contactText > a > h1,
+  .contactText > h1 {
+    font-size: 7px;
+    margin-top: 42px;
+  }
+  .stuff {
+    margin-top: 35px;
+  }
+
+  .contactShift {
+    margin-left: 40px;
+  }
+
   .quote {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .skils {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+  }
 }
 
 /* //phone */
-@media (max-width: 575px) {
+@media (max-width: 576px) {
+  .homeSection {
+    height: 350px;
+  }
+
+  .aboutMeSection {
+    height: 600px;
+  }
+
   .navItemColor > ul > li > a {
     font-size: 10px;
   }
@@ -791,6 +1029,143 @@ code {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .skils > h1 {
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-right: 100px;
+  }
+
+  .java {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .javaText {
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+
+  .javaText > h3 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .python {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .pythonText {
+    margin-left: 30px;
+    margin-right: 1px;
+  }
+
+  .pythonText > h3 {
+    margin-left: 0px;
+    margin-right: 1px;
+  }
+
+  .go {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .goText {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .goText > h3 {
+    margin-right: 13px;
+  }
+
+  .clang {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .cText {
+    margin-right: 0px;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+
+  .cText > h3 {
+    margin-right: 8px;
+  }
+
+  .js {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .jsText {
+    margin-left: 35px;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+
+  .jsText > h3 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .skils {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-sm-2,
+  .col-sm-3 {
+    flex-basis: 30%;
+  }
+
+  .skils > h2 {
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+
+  .flutterText {
+    margin-left: 52px;
+  }
+
+  .flaskText {
+    margin-left: 20px;
+  }
+
+  .flaskText > h3 {
+    margin-right: 5px;
+  }
+
+  .ginText {
+    margin-right: 10px;
+  }
+
+  .ginText > h3 {
+    margin-right: 5px;
+  }
+
+  .electronText {
+    margin-top: 10px;
+    margin-left: 92px;
+  }
+
+  .electronText > h3 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .reactText {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .reactText > h3 {
+    margin-right: 3px;
   }
 
   .buttonDown {

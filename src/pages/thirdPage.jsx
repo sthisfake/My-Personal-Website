@@ -17,55 +17,39 @@ class ThirdPage extends Component {
           <h1>You can contact me through this links</h1>
         </div>
         <div className="container text-center">
-          <div className="row">
-            <div className="col-sm-4">
+          <div className="row ">
+            <div className="col-sm-6 contactShift">
               <div className="stuff">
                 <div className="mailText">
                   <h1>
-                    <img
-                      className="mail"
-                      style={{ width: 80, height: 80 }}
-                      src={email}
-                    />
+                    <img className="mail" src={email} />
                     Email :
                   </h1>
                 </div>
 
                 <div className="phoneText">
                   <h1>
-                    <img
-                      className="phone"
-                      style={{ width: 60, height: 60 }}
-                      src={phone}
-                    />
+                    <img className="phone" src={phone} />
                     Phone :
                   </h1>
                 </div>
 
                 <div className="gitText">
                   <h1>
-                    <img
-                      className="git"
-                      style={{ width: 60, height: 60 }}
-                      src={git}
-                    />
+                    <img className="git" src={git} />
                     GitHub :
                   </h1>
                 </div>
 
                 <div className="telegramText">
                   <h1>
-                    <img
-                      className="telegram"
-                      style={{ width: 60, height: 60 }}
-                      src={telegram}
-                    />
+                    <img className="telegram" src={telegram} />
                     Telegram :
                   </h1>
                 </div>
               </div>
             </div>
-            <div className="col-sm-2">
+            <div className="col-sm-2 contactShift">
               <div className="contactText">
                 <h1 className="myEmail">pouya.teimoury@gmail.com</h1>
 
