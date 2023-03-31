@@ -991,6 +991,91 @@ code {
 
 /* //phone */
 @media (max-width: 576px) {
+  .contactMe > h1 {
+    font-size: 13px;
+  }
+
+  .mailText > h1 {
+    font-size: 2px;
+  }
+
+  .mailText {
+  }
+
+  .phoneText {
+  }
+
+  .gitText {
+  }
+
+  .telegramText {
+  }
+
+  .mail {
+    width: 10px;
+    height: 10px;
+  }
+
+  .phoneText > h1 {
+    font-size: 2px;
+    margin-left: 0px;
+  }
+
+  .phone {
+    width: 10px;
+    height: 10px;
+  }
+
+  .gitText > h1 {
+    font-size: 2px;
+  }
+
+  .git {
+    width: 10px;
+    height: 10px;
+  }
+
+  .telegramText > h1 {
+    font-size: 2px;
+  }
+
+  .telegram {
+    width: 8px;
+    height: 8px;
+  }
+
+  .contactText > a > h1,
+  .contactText > h1 {
+    font-size: 2px;
+    margin-top: 42px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .stuff {
+    margin-top: 35px;
+  }
+
+  /* .contactShift {
+    flex-basis: 50%;
+  } */
+
+  .contactShift2 {
+    flex-basis: 10%;
+    margin-left: 0px;
+  }
+
+  .contactText {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .wholeContact {
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .homeSection {
     height: 350px;
   }

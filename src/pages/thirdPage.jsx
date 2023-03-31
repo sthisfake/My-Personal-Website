@@ -16,9 +16,9 @@ class ThirdPage extends Component {
         <div className="contactMe">
           <h1>You can contact me through this links</h1>
         </div>
-        <div className="container text-center">
+        <div className="container text-center wholeContact">
           <div className="row ">
-            <div className="col-sm-6 contactShift">
+            <div className="col-sm-6 contactShift contactShift2">
               <div className="stuff">
                 <div className="mailText">
                   <h1>
@@ -44,12 +44,12 @@ class ThirdPage extends Component {
                 <div className="telegramText">
                   <h1>
                     <img className="telegram" src={telegram} />
-                    Telegram :
+                    Telegram:
                   </h1>
                 </div>
               </div>
             </div>
-            <div className="col-sm-2 contactShift">
+            <div className="col-sm-3 contactShift">
               <div className="contactText">
                 <h1 className="myEmail">pouya.teimoury@gmail.com</h1>
 
