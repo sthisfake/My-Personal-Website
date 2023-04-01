@@ -991,76 +991,91 @@ code {
 
 /* //phone */
 @media (max-width: 576px) {
-  .contactMe > h1 {
-    font-size: 13px;
-  }
-
-  .mailText > h1 {
-    font-size: 2px;
+  .wholeContact {
+    column-gap: 0%;
   }
 
   .mailText {
-  }
-
-  .phoneText {
-  }
-
-  .gitText {
-  }
-
-  .telegramText {
-  }
-
-  .mail {
-    width: 10px;
-    height: 10px;
-  }
-
-  .phoneText > h1 {
-    font-size: 2px;
     margin-left: 0px;
   }
 
-  .phone {
-    width: 10px;
-    height: 10px;
+  .contactMe > h1 {
+    font-size: 15px;
+  }
+
+  .mailText > h1 {
+    font-size: 10px;
+    margin-right: 0px;
+  }
+
+  .phoneText > h1 {
+    margin-right: 0px;
+    font-size: 10px;
+    margin-left: 0px;
   }
 
   .gitText > h1 {
-    font-size: 2px;
-  }
-
-  .git {
-    width: 10px;
-    height: 10px;
+    margin-right: 0px;
   }
 
   .telegramText > h1 {
-    font-size: 2px;
+    margin-right: 0px;
+  }
+
+  .mail {
+    width: 20px;
+    height: 20px;
+  }
+
+  .phone {
+    width: 17px;
+    height: 17px;
+  }
+
+  .gitText > h1 {
+    font-size: 10px;
+  }
+
+  .git {
+    margin-left: 2px;
+    width: 17px;
+    height: 17px;
+  }
+
+  .telegramText > h1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 8px;
+  }
+
+  .telegramText {
+    margin-right: 0px;
+    margin-left: 2px;
   }
 
   .telegram {
-    width: 8px;
-    height: 8px;
+    width: 16px;
+    height: 16px;
   }
 
   .contactText > a > h1,
   .contactText > h1 {
-    font-size: 2px;
-    margin-top: 42px;
+    font-size: 10px;
+    margin-top: 35px;
     margin-left: 0px;
     margin-right: 0px;
   }
   .stuff {
     margin-top: 35px;
+    margin-left: 40px;
   }
 
-  /* .contactShift {
-    flex-basis: 50%;
-  } */
+  .contactShift {
+    flex-basis: 70%;
+  }
 
   .contactShift2 {
-    flex-basis: 10%;
+    flex-basis: 40%;
     margin-left: 0px;
   }
 
@@ -1069,15 +1084,12 @@ code {
     margin-right: 0px;
   }
 
-  .wholeContact {
-    max-width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .contactShift2 {
+    margin-left: 0px;
   }
 
   .homeSection {
-    height: 350px;
+    height: 380px;
   }
 
   .aboutMeSection {
@@ -1091,33 +1103,35 @@ code {
   .myName > .slide-left > h1 {
     margin-top: 50px;
     margin-left: 0px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
   }
 
   .myName > .slide-left2 > h2 {
     margin-top: 10px;
     margin-left: 0px;
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
   }
   .myName > .slide-left2 > h3 {
     margin-top: 5px;
     margin-left: 0px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
   }
 
   .imagePouya {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     display: block;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .skils > h1 {
-    margin-left: 0px;
+    font-size: 13px;
+    margin-left: 50px;
     margin-top: 40px;
     margin-right: 100px;
   }
@@ -1133,6 +1147,7 @@ code {
   }
 
   .javaText > h3 {
+    font-size: 12px;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -1148,6 +1163,7 @@ code {
   }
 
   .pythonText > h3 {
+    font-size: 12px;
     margin-left: 0px;
     margin-right: 1px;
   }
@@ -1163,6 +1179,7 @@ code {
   }
 
   .goText > h3 {
+    font-size: 12px;
     margin-right: 13px;
   }
 
@@ -1178,6 +1195,7 @@ code {
   }
 
   .cText > h3 {
+    font-size: 12px;
     margin-right: 8px;
   }
 
@@ -1193,6 +1211,7 @@ code {
   }
 
   .jsText > h3 {
+    font-size: 12px;
     margin-right: 0px;
     margin-left: 0px;
   }
@@ -1210,7 +1229,8 @@ code {
   }
 
   .skils > h2 {
-    margin-left: 45px;
+    font-size: 15px;
+    margin-left: 50px;
     margin-top: 20px;
   }
 
@@ -1218,11 +1238,16 @@ code {
     margin-left: 52px;
   }
 
+  .flutterText > h3 {
+    font-size: 12px;
+  }
+
   .flaskText {
     margin-left: 20px;
   }
 
   .flaskText > h3 {
+    font-size: 12px;
     margin-right: 5px;
   }
 
@@ -1231,6 +1256,7 @@ code {
   }
 
   .ginText > h3 {
+    font-size: 12px;
     margin-right: 5px;
   }
 
@@ -1240,6 +1266,7 @@ code {
   }
 
   .electronText > h3 {
+    font-size: 12px;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -1250,10 +1277,15 @@ code {
   }
 
   .reactText > h3 {
+    font-size: 12px;
     margin-right: 3px;
   }
 
   .buttonDown {
     display: none;
+  }
+
+  .paragrapgh {
+    font-size: 12px;
   }
 }

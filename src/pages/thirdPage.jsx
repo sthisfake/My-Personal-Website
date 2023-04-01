@@ -16,8 +16,8 @@ class ThirdPage extends Component {
         <div className="contactMe">
           <h1>You can contact me through this links</h1>
         </div>
-        <div className="container text-center wholeContact">
-          <div className="row ">
+        <div className="container text-center wholeContact ">
+          <div className="row wholeContact">
             <div className="col-sm-6 contactShift contactShift2">
               <div className="stuff">
                 <div className="mailText">
